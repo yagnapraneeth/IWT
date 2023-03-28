@@ -1,0 +1,14 @@
+*{
+    margin:0px;
+    padding:0px;
+    border-collapse: collapse;
+    border-color: solid blueviolet;
+    background-color:  black;
+}
+th,td{
+    padding: 30px;
+    margin: 10px;
+    border: 1px solid rgb(238, 71, 5);
+    color:rgb(243, 240, 240);
+
+}
