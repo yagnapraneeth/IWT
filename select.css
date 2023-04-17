@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&family=Tilt+Prism&display=swap');    
+*{
+    background-color: rgb(4, 3, 3);
+}
+.firstclass{
+    background-color: beige;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 3px solid red;
+    border-radius: 30px;
+    color: rgb(7, 7, 7);
+}
+#one{
+    border: 5px solid blue;
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: aqua;
+}
+#two{
+    border: 6px solid greenyellow;
+    background-color: rgb(244, 246, 245);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(12, 13, 13);
+}
+span{
+    background-color: rgb(244, 246, 245);
+    font-family: 'Tilt Prism', cursive;
+}
+#one:hover{
+    color: rgb(202, 4, 4);
+}
