@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            border-collapse: collapse;
+        }
+
+        table {
+            background-color: cornflowerblue;
+            border: 2px solid black;
+        }
+
+        tr,
+        th {
+            border: 2px solid black;
+        }
+        .submit{
+            padding-left: 24%;
+        }
+        .reset{
+            padding-left: 25%;
+        }
+        .margin{
+            margin-right:1px solif; 
+        }
+        
+    </style>
+</head>
+
+<body>
+   
+    <form action="backend.php">
+        <center>
+            <table>
+                
+                    <h2>User Registration</h2>
+        </center>
+        <tr>
+            <th><label for="Name">First Name</label>
+                <br>
+                <input type="text" id="Name">
+            </th>
+            <th><label for="Name1">Last Name</label>
+                <br>
+                <input type="text" id="Name1">
+            </th>
+        </tr>
+        <tr>
+            <th><label for="Email">Email</label>
+                <br>
+                <input type="email" name="" id="Email">
+            </th>
+            <th> <label for="Zipcode">Zipcode</label>
+                <br>
+                <input type="number" id="Zipcode">
+            </th>
+        </tr>
+        <tr>
+            <th> <label for="Usename">Username</label>
+                <br>
+                <input type="text" id="Username">
+            </th>
+        </tr>
+        <tr>
+            <th> <label for="Password">Password</label>
+                <br>
+                <input type="text" id="Password">
+            </th>
+            <th> <label for="Confirm">Confirm Password</label>
+                <br>
+                <input type="text" id="Confirm">
+            </th>
+        </tr>
+        <tr>
+            <th class="margin">What music are you interested in</th>
+            <th> <input type="checkbox">Hiphop <input type="checkbox" name="" id="">Rock <input type="checkbox" name=""
+                    id="">Classical</th>
+        </tr>
+        <tr>
+            <th class="margin">would you like to recieve an email</th>
+            <th> <input type="radio" name="Email" id="">Yes <input type="radio" name="Email" id="">No</th>
+        </tr>
+        <tr>
+            <th>Image</th>
+            <th> <img src="https://idsb.tmgrup.com.tr/ly/uploads/images/2022/12/19/247181.jpg" alt="Messi babai"
+                    height="300px"></th>
+        </tr>
+        <center>
+            <tr>
+                <td class="submit"> <input type="submit"></td>
+                <td class="reset"> <input type="reset"></td>
+            </tr>
+        </center>
+        
+        </table>
+    </form>
+</body>
+
+</html>

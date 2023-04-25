@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        * {
+            border-collapse: collapse;
+
+        }
+
+        table {
+            background-color: aqua;
+            border: 2px solid black;
+        }
+
+        tr,
+        th {
+            border: 2px solid black;
+        }
+        td{
+            font: italic;
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="backend.php"></form>
+    <center>
+        <table>
+            <div class="Whole">
+                <tr> <td colspan="2 " align="center" >Student Registration Form</td> </tr>
+            <h2></h2>
+    </center>
+    <tr>
+        <th>Name </th>
+        <th> <input type="text" name="myName" id="name"></th>
+    </tr>
+    <tr>
+        <th>Father Name</th>
+        <th> <input type="text" name="" id=""></th>
+    </tr>
+    <tr>
+        <th>Mother Name</th>
+        <th> <input type="text"></th>
+    </tr>
+    <tr>
+        <th>Phone Number</th>
+        <th> <input type="number"></th>
+    </tr>
+    <tr>
+        <th>Student Email</th>
+        <th> <input type="email"></th>
+    </tr>
+    <tr>
+        <th>Gender</th>
+        <th>
+            <input type="radio" name="MyGender" id="Male">Male
+            <input type="radio" name="MyGender" id="Male">Female
+        </th>
+    </tr>
+    <tr>
+        <th>Date Of Birth</th>
+        <th> <input type="datetime-local"></th>
+    </tr>
+    <tr>
+        <th> File </th>
+        <th> <input type="file" name="" id=""></th>
+    </tr>
+    <tr>
+     <th>Location</th> 
+     <th> <select name="" id="Location">
+        <option value="Hyd">Hyderabad</option>
+        <option value="Ban">Banglore</option>
+        <option value="Mum">Mumbai</option>
+        <option value="Che">Chennai</option>
+        <option value="Del">Delhi</option>
+
+    </select></th>
+    </tr>
+    <tr>
+    <th><input type="reset"></th>
+    
+    <th> <input type="submit"></th> 
+</tr>
+</div>
+    </table>
+    </form>
+</body>
+
+</html>
